@@ -65,11 +65,20 @@ for student in students:
         average_performers.append(record)
     else:
         low_performers.append(record)
+
 print("The summary report of the students")
 
-print(f"High performers:{len(high_performers)}")
-print(f"Average performers:{len(average_performers)}")
-print(f"Low performers:{len(low_performers)}")
+print("")
+
+print(f"High performers:{high_performers}")
+
+print("")
+
+print(f"Average performers:{average_performers}")
+
+print("")
+
+print(f"Low performers:{low_performers}")
 
 
 
